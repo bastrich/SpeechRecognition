@@ -1,0 +1,171 @@
+D:\Users\Zhenya\Favorites\speech recognition\SpeechRecognition\SpeechRecognition\bin\Debug\SpeechRecognition.exe
+D:\Users\Zhenya\Favorites\speech recognition\SpeechRecognition\SpeechRecognition\bin\Debug\SpeechRecognition.pdb
+D:\Users\Zhenya\Favorites\speech recognition\SpeechRecognition\SpeechRecognition\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Users\Zhenya\Favorites\speech recognition\SpeechRecognition\SpeechRecognition\obj\x86\Debug\SpeechRecognition.AddForm.resources
+D:\Users\Zhenya\Favorites\speech recognition\SpeechRecognition\SpeechRecognition\obj\x86\Debug\SpeechRecognition.MainForm.resources
+D:\Users\Zhenya\Favorites\speech recognition\SpeechRecognition\SpeechRecognition\obj\x86\Debug\SpeechRecognition.Properties.Resources.resources
+D:\Users\Zhenya\Favorites\speech recognition\SpeechRecognition\SpeechRecognition\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Users\Zhenya\Favorites\speech recognition\SpeechRecognition\SpeechRecognition\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Users\Zhenya\Favorites\speech recognition\SpeechRecognition\SpeechRecognition\obj\x86\Debug\SpeechRecognition.exe
+D:\Users\Zhenya\Favorites\speech recognition\SpeechRecognition\SpeechRecognition\obj\x86\Debug\SpeechRecognition.pdb
+C:\Users\Daniil\Desktop\speech recognition\SpeechRecognition\SpeechRecognition\obj\x86\Debug\SpeechRecognition.exe
+C:\Users\Daniil\Desktop\speech recognition\SpeechRecognition\SpeechRecognition\obj\x86\Debug\SpeechRecognition.pdb
+C:\Users\Daniil\Desktop\speech recognition\SpeechRecognition\SpeechRecognition\obj\x86\Debug\SpeechRecognition.csprojResolveAssemblyReference.cache
+C:\Users\Daniil\Desktop\speech recognition\SpeechRecognition\SpeechRecognition\obj\x86\Debug\SpeechRecognition.AddForm.resources
+C:\Users\Daniil\Desktop\speech recognition\SpeechRecognition\SpeechRecognition\obj\x86\Debug\SpeechRecognition.MainForm.resources
+C:\Users\Daniil\Desktop\speech recognition\SpeechRecognition\SpeechRecognition\obj\x86\Debug\SpeechRecognition.Properties.Resources.resources
+C:\Users\Daniil\Desktop\speech recognition\SpeechRecognition\SpeechRecognition\obj\x86\Debug\SpeechRecognition.csproj.GenerateResource.Cache
+C:\Users\Daniil\Desktop\speech recognition\SpeechRecognition\SpeechRecognition\bin\Debug\SpeechRecognition.exe
+C:\Users\Daniil\Desktop\speech recognition\SpeechRecognition\SpeechRecognition\bin\Debug\SpeechRecognition.pdb
+C:\Users\Daniil\Desktop\speech recognition\SpeechRecognition\SpeechRecognition\bin\Debug\NAudio.dll
+C:\Users\Daniil\Desktop\speech recognition\SpeechRecognition\SpeechRecognition\bin\Debug\NAudio.WindowsMediaFormat.dll
+\\192.168.1.102\Share\SpeechRecognition\SpeechRecognition\obj\x86\Debug\SpeechRecognition.exe
+\\192.168.1.102\Share\SpeechRecognition\SpeechRecognition\obj\x86\Debug\SpeechRecognition.pdb
+\\192.168.1.102\Share\SpeechRecognition\SpeechRecognition\bin\Debug\SpeechRecognition.exe
+\\192.168.1.102\Share\SpeechRecognition\SpeechRecognition\bin\Debug\SpeechRecognition.pdb
+\\192.168.1.102\Share\SpeechRecognition\SpeechRecognition\bin\Debug\NAudio.dll
+\\192.168.1.102\Share\SpeechRecognition\SpeechRecognition\bin\Debug\NAudio.WindowsMediaFormat.dll
+\\192.168.1.102\Share\SpeechRecognition\SpeechRecognition\obj\x86\Debug\SpeechRecognition.AddForm.resources
+\\192.168.1.102\Share\SpeechRecognition\SpeechRecognition\obj\x86\Debug\SpeechRecognition.MainForm.resources
+\\192.168.1.102\Share\SpeechRecognition\SpeechRecognition\obj\x86\Debug\SpeechRecognition.Properties.Resources.resources
+\\192.168.1.102\share\SpeechRecognition\SpeechRecognition\obj\x86\Debug\SpeechRecognition.csprojResolveAssemblyReference.cache
+\\192.168.1.102\share\SpeechRecognition\SpeechRecognition\obj\x86\Debug\SpeechRecognition.csproj.GenerateResource.Cache
+C:\Users\Andrey\Documents\Visual Studio 2010\Projects\SpeechRecognition\SpeechRecognition\obj\x86\Debug\SpeechRecognition.exe
+C:\Users\Andrey\Documents\Visual Studio 2010\Projects\SpeechRecognition\SpeechRecognition\obj\x86\Debug\SpeechRecognition.pdb
+C:\Users\Andrey\Documents\Visual Studio 2010\Projects\SpeechRecognition\SpeechRecognition\bin\Debug\SpeechRecognition.exe
+C:\Users\Andrey\Documents\Visual Studio 2010\Projects\SpeechRecognition\SpeechRecognition\bin\Debug\SpeechRecognition.pdb
+C:\Users\Andrey\Documents\Visual Studio 2010\Projects\SpeechRecognition\SpeechRecognition\bin\Debug\NAudio.dll
+C:\Users\Andrey\Documents\Visual Studio 2010\Projects\SpeechRecognition\SpeechRecognition\bin\Debug\NAudio.WindowsMediaFormat.dll
+C:\Users\Andrey\Documents\Visual Studio 2010\Projects\SpeechRecognition\SpeechRecognition\obj\x86\Debug\SpeechRecognition.csprojResolveAssemblyReference.cache
+C:\Users\Andrey\Documents\Visual Studio 2010\Projects\SpeechRecognition\SpeechRecognition\obj\x86\Debug\SpeechRecognition.AddForm.resources
+C:\Users\Andrey\Documents\Visual Studio 2010\Projects\SpeechRecognition\SpeechRecognition\obj\x86\Debug\SpeechRecognition.MainForm.resources
+C:\Users\Andrey\Documents\Visual Studio 2010\Projects\SpeechRecognition\SpeechRecognition\obj\x86\Debug\SpeechRecognition.Properties.Resources.resources
+C:\Users\Andrey\Documents\Visual Studio 2010\Projects\SpeechRecognition\SpeechRecognition\obj\x86\Debug\SpeechRecognition.csproj.GenerateResource.Cache
+Z:\SpeechRecognition\SpeechRecognition\obj\x86\Debug\SpeechRecognition.exe
+Z:\SpeechRecognition\SpeechRecognition\obj\x86\Debug\SpeechRecognition.pdb
+Z:\SpeechRecognition\SpeechRecognition\obj\x86\Debug\SpeechRecognition.csprojResolveAssemblyReference.cache
+Z:\SpeechRecognition\SpeechRecognition\obj\x86\Debug\SpeechRecognition.AddForm.resources
+Z:\SpeechRecognition\SpeechRecognition\obj\x86\Debug\SpeechRecognition.MainForm.resources
+Z:\SpeechRecognition\SpeechRecognition\obj\x86\Debug\SpeechRecognition.Properties.Resources.resources
+Z:\SpeechRecognition\SpeechRecognition\obj\x86\Debug\SpeechRecognition.csproj.GenerateResource.Cache
+Z:\SpeechRecognition\SpeechRecognition\bin\Debug\SpeechRecognition.exe
+Z:\SpeechRecognition\SpeechRecognition\bin\Debug\SpeechRecognition.pdb
+Z:\SpeechRecognition\SpeechRecognition\bin\Debug\NAudio.dll
+Z:\SpeechRecognition\SpeechRecognition\bin\Debug\NAudio.WindowsMediaFormat.dll
+D:\Users\Zhenya\Favorites\speech recognition\SpeechRecognition\obj\x86\Debug\SpeechRecognition.exe
+D:\Users\Zhenya\Favorites\speech recognition\SpeechRecognition\obj\x86\Debug\SpeechRecognition.pdb
+D:\Users\Zhenya\Favorites\speech recognition\SpeechRecognition\bin\Debug\SpeechRecognition.exe
+D:\Users\Zhenya\Favorites\speech recognition\SpeechRecognition\bin\Debug\SpeechRecognition.pdb
+D:\Users\Zhenya\Favorites\speech recognition\SpeechRecognition\bin\Debug\NAudio.dll
+D:\Users\Zhenya\Favorites\speech recognition\SpeechRecognition\bin\Debug\NAudio.WindowsMediaFormat.dll
+D:\Users\Zhenya\Favorites\speech recognition\SpeechRecognition\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Users\Zhenya\Favorites\speech recognition\SpeechRecognition\obj\x86\Debug\SpeechRecognition.AddForm.resources
+D:\Users\Zhenya\Favorites\speech recognition\SpeechRecognition\obj\x86\Debug\SpeechRecognition.MainForm.resources
+D:\Users\Zhenya\Favorites\speech recognition\SpeechRecognition\obj\x86\Debug\SpeechRecognition.Properties.Resources.resources
+D:\Users\Zhenya\Favorites\speech recognition\SpeechRecognition\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Users\Zhenya\Favorites\speech recognition\SpeechRecognition\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Users\Zhenya\Favorites\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\SpeechRecognition.exe
+D:\Users\Zhenya\Favorites\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\SpeechRecognition.pdb
+D:\Users\Zhenya\Favorites\SpeechRecognitionv2\SpeechRecognition\bin\Debug\SpeechRecognition.exe
+D:\Users\Zhenya\Favorites\SpeechRecognitionv2\SpeechRecognition\bin\Debug\SpeechRecognition.pdb
+D:\Users\Zhenya\Favorites\SpeechRecognitionv2\SpeechRecognition\bin\Debug\NAudio.dll
+D:\Users\Zhenya\Favorites\SpeechRecognitionv2\SpeechRecognition\bin\Debug\NAudio.WindowsMediaFormat.dll
+D:\Users\Zhenya\Favorites\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Users\Zhenya\Favorites\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\SpeechRecognition.AddForm.resources
+D:\Users\Zhenya\Favorites\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\SpeechRecognition.MainForm.resources
+D:\Users\Zhenya\Favorites\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\SpeechRecognition.Properties.Resources.resources
+D:\Users\Zhenya\Favorites\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Users\Zhenya\Favorites\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Andrey\workspace\CSharp\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\SpeechRecognition.exe
+C:\Users\Andrey\workspace\CSharp\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\SpeechRecognition.pdb
+C:\Users\Andrey\workspace\CSharp\SpeechRecognitionv2\SpeechRecognition\bin\Debug\SpeechRecognition.exe
+C:\Users\Andrey\workspace\CSharp\SpeechRecognitionv2\SpeechRecognition\bin\Debug\SpeechRecognition.pdb
+C:\Users\Andrey\workspace\CSharp\SpeechRecognitionv2\SpeechRecognition\bin\Debug\NAudio.dll
+C:\Users\Andrey\workspace\CSharp\SpeechRecognitionv2\SpeechRecognition\bin\Debug\NAudio.WindowsMediaFormat.dll
+C:\Users\Andrey\workspace\CSharp\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\SpeechRecognition.csprojResolveAssemblyReference.cache
+C:\Users\Andrey\workspace\CSharp\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\SpeechRecognition.AddForm.resources
+C:\Users\Andrey\workspace\CSharp\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\SpeechRecognition.MainForm.resources
+C:\Users\Andrey\workspace\CSharp\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\SpeechRecognition.Properties.Resources.resources
+C:\Users\Andrey\workspace\CSharp\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\SpeechRecognition.csproj.GenerateResource.Cache
+C:\Users\Daniil\Desktop\АААААА!!!!!!\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\SpeechRecognition.exe
+C:\Users\Daniil\Desktop\АААААА!!!!!!\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\SpeechRecognition.pdb
+C:\Users\Daniil\Desktop\АААААА!!!!!!\SpeechRecognitionv2\SpeechRecognition\bin\Debug\SpeechRecognition.exe
+C:\Users\Daniil\Desktop\АААААА!!!!!!\SpeechRecognitionv2\SpeechRecognition\bin\Debug\SpeechRecognition.pdb
+C:\Users\Daniil\Desktop\АААААА!!!!!!\SpeechRecognitionv2\SpeechRecognition\bin\Debug\NAudio.dll
+C:\Users\Daniil\Desktop\АААААА!!!!!!\SpeechRecognitionv2\SpeechRecognition\bin\Debug\NAudio.WindowsMediaFormat.dll
+C:\Users\Daniil\Desktop\АААААА!!!!!!\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\SpeechRecognition.csprojResolveAssemblyReference.cache
+C:\Users\Daniil\Desktop\АААААА!!!!!!\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\SpeechRecognition.AddForm.resources
+C:\Users\Daniil\Desktop\АААААА!!!!!!\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\SpeechRecognition.MainForm.resources
+C:\Users\Daniil\Desktop\АААААА!!!!!!\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\SpeechRecognition.Properties.Resources.resources
+C:\Users\Daniil\Desktop\АААААА!!!!!!\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\SpeechRecognition.csproj.GenerateResource.Cache
+C:\Users\Andrey\workspace\CSharp\SpeechRecognitionv2.2\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\SpeechRecognition.exe
+C:\Users\Andrey\workspace\CSharp\SpeechRecognitionv2.2\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\SpeechRecognition.pdb
+C:\Users\Andrey\workspace\CSharp\SpeechRecognitionv2.2\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\SpeechRecognition.csprojResolveAssemblyReference.cache
+C:\Users\Andrey\workspace\CSharp\SpeechRecognitionv2.2\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\SpeechRecognition.AddForm.resources
+C:\Users\Andrey\workspace\CSharp\SpeechRecognitionv2.2\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\SpeechRecognition.MainForm.resources
+C:\Users\Andrey\workspace\CSharp\SpeechRecognitionv2.2\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\SpeechRecognition.Properties.Resources.resources
+C:\Users\Andrey\workspace\CSharp\SpeechRecognitionv2.2\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\SpeechRecognition.csproj.GenerateResource.Cache
+C:\Users\Andrey\workspace\CSharp\SpeechRecognitionv2.2\SpeechRecognitionv2\SpeechRecognition\bin\Debug\SpeechRecognition.exe
+C:\Users\Andrey\workspace\CSharp\SpeechRecognitionv2.2\SpeechRecognitionv2\SpeechRecognition\bin\Debug\SpeechRecognition.pdb
+C:\Users\Andrey\workspace\CSharp\SpeechRecognitionv2.2\SpeechRecognitionv2\SpeechRecognition\bin\Debug\NAudio.dll
+C:\Users\Andrey\workspace\CSharp\SpeechRecognitionv2.2\SpeechRecognitionv2\SpeechRecognition\bin\Debug\NAudio.WindowsMediaFormat.dll
+C:\Users\Daniil\Desktop\SpeechRecognitionv2.2\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\SpeechRecognition.exe
+C:\Users\Daniil\Desktop\SpeechRecognitionv2.2\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\SpeechRecognition.pdb
+C:\Users\Daniil\Desktop\SpeechRecognitionv2.2\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\SpeechRecognition.csprojResolveAssemblyReference.cache
+C:\Users\Daniil\Desktop\SpeechRecognitionv2.2\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\SpeechRecognition.AddForm.resources
+C:\Users\Daniil\Desktop\SpeechRecognitionv2.2\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\SpeechRecognition.MainForm.resources
+C:\Users\Daniil\Desktop\SpeechRecognitionv2.2\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\SpeechRecognition.Properties.Resources.resources
+C:\Users\Daniil\Desktop\SpeechRecognitionv2.2\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\SpeechRecognition.csproj.GenerateResource.Cache
+C:\Users\Daniil\Desktop\SpeechRecognitionv2.2\SpeechRecognitionv2\SpeechRecognition\bin\Debug\SpeechRecognition.exe
+C:\Users\Daniil\Desktop\SpeechRecognitionv2.2\SpeechRecognitionv2\SpeechRecognition\bin\Debug\SpeechRecognition.pdb
+C:\Users\Daniil\Desktop\SpeechRecognitionv2.2\SpeechRecognitionv2\SpeechRecognition\bin\Debug\NAudio.dll
+C:\Users\Daniil\Desktop\SpeechRecognitionv2.2\SpeechRecognitionv2\SpeechRecognition\bin\Debug\NAudio.WindowsMediaFormat.dll
+C:\Users\Andrey\workspace\CSharp\SpeechRecognitionv2_2\SpeechRecognitionv2.2\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\SpeechRecognition.exe
+C:\Users\Andrey\workspace\CSharp\SpeechRecognitionv2_2\SpeechRecognitionv2.2\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\SpeechRecognition.pdb
+C:\Users\Andrey\workspace\CSharp\SpeechRecognitionv2_2\SpeechRecognitionv2.2\SpeechRecognitionv2\SpeechRecognition\bin\Debug\SpeechRecognition.exe
+C:\Users\Andrey\workspace\CSharp\SpeechRecognitionv2_2\SpeechRecognitionv2.2\SpeechRecognitionv2\SpeechRecognition\bin\Debug\SpeechRecognition.pdb
+C:\Users\Andrey\workspace\CSharp\SpeechRecognitionv2_2\SpeechRecognitionv2.2\SpeechRecognitionv2\SpeechRecognition\bin\Debug\NAudio.dll
+C:\Users\Andrey\workspace\CSharp\SpeechRecognitionv2_2\SpeechRecognitionv2.2\SpeechRecognitionv2\SpeechRecognition\bin\Debug\NAudio.WindowsMediaFormat.dll
+C:\Users\Andrey\workspace\CSharp\SpeechRecognitionv2_2\SpeechRecognitionv2.2\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\SpeechRecognition.csprojResolveAssemblyReference.cache
+C:\Users\Andrey\workspace\CSharp\SpeechRecognitionv2_2\SpeechRecognitionv2.2\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\SpeechRecognition.AddForm.resources
+C:\Users\Andrey\workspace\CSharp\SpeechRecognitionv2_2\SpeechRecognitionv2.2\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\SpeechRecognition.DWTTest.resources
+C:\Users\Andrey\workspace\CSharp\SpeechRecognitionv2_2\SpeechRecognitionv2.2\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\SpeechRecognition.MainForm.resources
+C:\Users\Andrey\workspace\CSharp\SpeechRecognitionv2_2\SpeechRecognitionv2.2\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\SpeechRecognition.Properties.Resources.resources
+C:\Users\Andrey\workspace\CSharp\SpeechRecognitionv2_2\SpeechRecognitionv2.2\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\SpeechRecognition.csproj.GenerateResource.Cache
+C:\Users\Daniil\Desktop\АААААА!!!!2\SpeechRecognitionv2.2\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\SpeechRecognition.exe
+C:\Users\Daniil\Desktop\АААААА!!!!2\SpeechRecognitionv2.2\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\SpeechRecognition.pdb
+C:\Users\Daniil\Desktop\АААААА!!!!2\SpeechRecognitionv2.2\SpeechRecognitionv2\SpeechRecognition\bin\Debug\SpeechRecognition.exe
+C:\Users\Daniil\Desktop\АААААА!!!!2\SpeechRecognitionv2.2\SpeechRecognitionv2\SpeechRecognition\bin\Debug\SpeechRecognition.pdb
+C:\Users\Daniil\Desktop\АААААА!!!!2\SpeechRecognitionv2.2\SpeechRecognitionv2\SpeechRecognition\bin\Debug\NAudio.dll
+C:\Users\Daniil\Desktop\АААААА!!!!2\SpeechRecognitionv2.2\SpeechRecognitionv2\SpeechRecognition\bin\Debug\NAudio.WindowsMediaFormat.dll
+C:\Users\Daniil\Desktop\АААААА!!!!2\SpeechRecognitionv2.2\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\SpeechRecognition.csprojResolveAssemblyReference.cache
+C:\Users\Daniil\Desktop\АААААА!!!!2\SpeechRecognitionv2.2\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\SpeechRecognition.AddForm.resources
+C:\Users\Daniil\Desktop\АААААА!!!!2\SpeechRecognitionv2.2\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\SpeechRecognition.DWTTest.resources
+C:\Users\Daniil\Desktop\АААААА!!!!2\SpeechRecognitionv2.2\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\SpeechRecognition.MainForm.resources
+C:\Users\Daniil\Desktop\АААААА!!!!2\SpeechRecognitionv2.2\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\SpeechRecognition.Properties.Resources.resources
+C:\Users\Daniil\Desktop\АААААА!!!!2\SpeechRecognitionv2.2\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\SpeechRecognition.csproj.GenerateResource.Cache
+D:\Users\Zhenya\Favorites\АААААА!!!!2\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\SpeechRecognition.exe
+D:\Users\Zhenya\Favorites\АААААА!!!!2\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\SpeechRecognition.pdb
+D:\Users\Zhenya\Favorites\АААААА!!!!2\SpeechRecognitionv2\SpeechRecognition\bin\Debug\SpeechRecognition.exe
+D:\Users\Zhenya\Favorites\АААААА!!!!2\SpeechRecognitionv2\SpeechRecognition\bin\Debug\SpeechRecognition.pdb
+D:\Users\Zhenya\Favorites\АААААА!!!!2\SpeechRecognitionv2\SpeechRecognition\bin\Debug\NAudio.dll
+D:\Users\Zhenya\Favorites\АААААА!!!!2\SpeechRecognitionv2\SpeechRecognition\bin\Debug\NAudio.WindowsMediaFormat.dll
+D:\Users\Zhenya\Favorites\АААААА!!!!2\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Users\Zhenya\Favorites\АААААА!!!!2\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\SpeechRecognition.AddForm.resources
+D:\Users\Zhenya\Favorites\АААААА!!!!2\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\SpeechRecognition.DWTTest.resources
+D:\Users\Zhenya\Favorites\АААААА!!!!2\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\SpeechRecognition.MainForm.resources
+D:\Users\Zhenya\Favorites\АААААА!!!!2\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\SpeechRecognition.Properties.Resources.resources
+D:\Users\Zhenya\Favorites\АААААА!!!!2\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Users\Zhenya\Favorites\АААААА!!!!2\SpeechRecognitionv2\SpeechRecognition\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Daniil\Desktop\ыкд\SpeechRecognition\obj\x86\Debug\SpeechRecognition.exe
+C:\Users\Daniil\Desktop\ыкд\SpeechRecognition\obj\x86\Debug\SpeechRecognition.pdb
+C:\Users\Daniil\Desktop\ыкд\SpeechRecognition\bin\Debug\SpeechRecognition.exe
+C:\Users\Daniil\Desktop\ыкд\SpeechRecognition\bin\Debug\SpeechRecognition.pdb
+C:\Users\Daniil\Desktop\ыкд\SpeechRecognition\bin\Debug\NAudio.dll
+C:\Users\Daniil\Desktop\ыкд\SpeechRecognition\bin\Debug\NAudio.WindowsMediaFormat.dll
+C:\Users\Daniil\Desktop\ыкд\SpeechRecognition\obj\x86\Debug\SpeechRecognition.csprojResolveAssemblyReference.cache
+C:\Users\Daniil\Desktop\ыкд\SpeechRecognition\obj\x86\Debug\SpeechRecognition.AddForm.resources
+C:\Users\Daniil\Desktop\ыкд\SpeechRecognition\obj\x86\Debug\SpeechRecognition.DWTTest.resources
+C:\Users\Daniil\Desktop\ыкд\SpeechRecognition\obj\x86\Debug\SpeechRecognition.MainForm.resources
+C:\Users\Daniil\Desktop\ыкд\SpeechRecognition\obj\x86\Debug\SpeechRecognition.Properties.Resources.resources
+C:\Users\Daniil\Desktop\ыкд\SpeechRecognition\obj\x86\Debug\SpeechRecognition.csproj.GenerateResource.Cache
