@@ -15,7 +15,7 @@ namespace SpeechRecognition
     {
 
         public MainSpeech Speech;
-
+        private bool inProcess = false;
         public MainForm()
         {
             InitializeComponent();
@@ -23,6 +23,11 @@ namespace SpeechRecognition
 
         private void BtnAdd_Click(object sender, EventArgs e)
         {
+            if (inProcess)
+            {
+                MessageBox.Show("Распознавание прервано");
+                BtnStop_Click(sender, e);
+            }
             AddForm form1 = new AddForm();
             form1.ShowDialog(this);
         }
@@ -53,6 +58,7 @@ namespace SpeechRecognition
                 BtnStart.Visible = false;
                 BtnStop.Visible = true;
                 Logger.Add("Recognition start");
+                inProcess = true;
                 SoundProcessing.Start();
             }
             tbxLogs.SelectionStart = tbxLogs.Text.Length;
@@ -79,8 +85,8 @@ namespace SpeechRecognition
             }
 
             BtnStop.Visible = false;
-            BtnStart.Visible = true;          
-
+            BtnStart.Visible = true;
+            inProcess = false;
             for (int j = 0; j < Speech.Commands.Count; j++)
             {
                 this.tbxLogs.Text += "Дистанция между вектором " + ((Command)Speech.Commands[j]).Name + " и записанным вектором - " + MainSpeech.getDistance(((Command)Speech.Commands[j]).Coefs, result) + "\r\n";
@@ -91,6 +97,11 @@ namespace SpeechRecognition
 
         private void BtnDelete_Click(object sender, EventArgs e)
         {
+            if (inProcess)
+            {
+                MessageBox.Show("Распознавание прервано");
+                BtnStop_Click(sender, e);
+            }
             if (ListCommands.SelectedIndex > -1)
             {
                 int i = ListCommands.SelectedIndex;
@@ -106,20 +117,63 @@ namespace SpeechRecognition
 
         private void ListCommands_SelectedIndexChanged(object sender, EventArgs e)
         {
+            DrawCoeffs();
+        }
+        private void DrawCoeffs()
+        {
             if (ListCommands.SelectedIndex < 0) return;
-            
             Bitmap Bmp = new Bitmap(pictureBox1.Width, pictureBox1.Height);
             pictureBox1.BackgroundImage = Bmp;
             LBPlot LB = new LBPlot(Graphics.FromImage(Bmp), pictureBox1.DisplayRectangle);
+            LB.ShowText = true;
             LB.AddData((double[])((Command)Speech.Commands[ListCommands.SelectedIndex]).Coefs.ToArray(typeof(System.Double)));
+            /*LB.AddData(ArrayList.Repeat(-1d, RawTransform.NEEDED_COEFS));
+            LB.AddData(ArrayList.Repeat(1d, RawTransform.NEEDED_COEFS));*/
+            LB.SelectView(0, RawTransform.NEEDED_COEFS, 1, -1);
             //LBPlot.DrawPlot((double[])((Command)Speech.Commands[ListCommands.SelectedIndex]).Coefs.ToArray(typeof(System.Double)), Bmp);
             LB.DrawData();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void mmClear_Click(object sender, EventArgs e)
         {
+            if (inProcess)
+            {
+                MessageBox.Show("Распознавание прервано");
+                BtnStop_Click(sender, e);
+            }
+            Speech.Commands.Clear();
+            ListCommands.Items.Clear();
+        }
+
+        private void mmExit_Click(object sender, EventArgs e)
+        {
+            if (inProcess)
+            {
+                MessageBox.Show("Распознавание прервано");
+                BtnStop_Click(sender, e);
+            }
+            Close();
+        }
+
+        private void mmResearch_Click(object sender, EventArgs e)
+        {
+            if (inProcess)
+            {
+                MessageBox.Show("Распознавание прервано");
+                BtnStop_Click(sender, e);
+            }
             DWTTest TestForm = new DWTTest();
             TestForm.ShowDialog();
+        }
+
+        private void pictureBox1_Resize(object sender, EventArgs e)
+        {
+            DrawCoeffs();
+        }
+
+        private void MainForm_ResizeBegin(object sender, EventArgs e)
+        {
+
         }
     }
 }

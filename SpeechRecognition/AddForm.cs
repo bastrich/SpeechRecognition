@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.IO;
@@ -115,29 +113,44 @@ namespace SpeechRecognition
 
         private void tbAutoName_TextChanged(object sender, EventArgs e)
         {
-            if (chbAutoHelp.Checked&(tbAutoName.TextLength>0))
+            try
             {
-                if (Directory.Exists("teach"))
+                if (chbAutoHelp.Checked & (tbAutoName.TextLength > 0))
                 {
-                    string[] Files = Directory.GetFiles(Directory.GetCurrentDirectory() + "/teach/", tbAutoName.Text + '*');
-                    tbAutoFiles.Text = "";
-                    for (int i = 0; i < Files.Count(); i++)
+                    if (Directory.Exists("teach"))
                     {
-                        FileInfo FI = new FileInfo(Files[i]);
-                        tbAutoFiles.AppendText(FI.Name + "\r\n");
+                        string[] Files = Directory.GetFiles(Directory.GetCurrentDirectory() + "/teach/", tbAutoName.Text + '*');
+                        tbAutoFiles.Text = "";
+                        for (int i = 0; i < Files.Length; i++)
+                        {
+                            FileInfo FI = new FileInfo(Files[i]);
+                            tbAutoFiles.AppendText(FI.Name + "\r\n");
+                        }
                     }
-                }
 
+                }
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Ошибка поиска файлов. Поиск отключен");
+                chbAutoHelp.Checked = false;
+                throw;
             }
         }
 
         private void btnAutoAdd_Click(object sender, EventArgs e)
         {
+            if (tbAutoFiles.Lines.Length < 3)
+            {
+                MessageBox.Show("Не хватает файлов для обучения. Необходимы как минимум три");
+                return;
+            }
             for (int j = 0; j < Learning.COUNT; j++)
 			{
 			    Learn.RecCommands.Add(SoundProcessing.AutoTeach(tbAutoFiles.Lines[j]));
 			}
             ComCounter = 0;
+            BoxName.Text = tbAutoName.Text;
             BtnSave_Click(sender,e);
         }
     }

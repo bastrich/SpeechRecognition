@@ -7,7 +7,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-
+/// Форма задумывалась для рассмотрения и сравнения характеристик различных записей одного и того же слова
 namespace SpeechRecognition
 {
     public partial class DWTTest : Form
@@ -37,41 +37,42 @@ namespace SpeechRecognition
                 FPlot = new LBPlot(Graphics.FromImage(pictureBox2.Image), pictureBox2.DisplayRectangle);
                 if (TmpPlot == null)
                 {
-     
                     TmpPlot = new LBPlot(Graphics.FromImage(pictureBox3.Image), pictureBox3.DisplayRectangle);
                 }
                 else
                     TmpPlot.Restore(Graphics.FromImage(pictureBox3.Image));
                 int l, r;
-                FindVocal(Data, 256,out l, out r);
-                Data = Data.GetRange(l, r - l);
+                FindVocal(Data, 32,out l, out r);
+                //Data = Data.GetRange(l, r - l);
                 PrepareArray(ref Data,512);
                 FilePlot.AddData(Data);
+                FilePlot.SelectView(l, r);
+                FilePlot.FreeView();
+                FilePlot.ShowRange = true;
                 FilePlot.DrawData();
                 ProcessData(512);
                 TmpPlot.DrawData();
+                btnBuild.Enabled = true;
+                btnRemove.Enabled = true;  
             }
         }
         private void PrepareArray(ref ArrayList Data, int forWindowSize)
         {
             int sc = (Data.Count / forWindowSize + 1) * forWindowSize;
             if (sc - Data.Count < forWindowSize)
+                Data.AddRange(ArrayList.Repeat(0d, sc - Data.Count));
+            /*if (sc - Data.Count < forWindowSize)
                 for (int i = sc - Data.Count; i > 0; i--)
                 {
                     Data.Add(0.0d);
-                }
-            /*int size = Data.Count;
-            int p = Convert.ToInt32(Math.Ceiling(Math.Log(size, 2)));
-            size = Convert.ToInt32(Math.Pow(2, p));
-            for (int i = size - Data.Count; i > 0; i--)
-            {
-                Data.Add(0.0d);
-            }*/
+                }*/
 
         }
 
         private void FindVocal(ICollection Data, int WindowSize, out int Left, out int Right)
         {
+            const double MIN_ENERGY_PERCENT = 0.1d;
+            const double MIN_ZEROCROSS = 1.0d / 14;
             IEnumerator En = Data.GetEnumerator();
             IEnumerator Last = Data.GetEnumerator();
             En.MoveNext();
@@ -93,7 +94,7 @@ namespace SpeechRecognition
                 lastE = nextE;
                 temp[left] = ZCR;
                 energy[left] = EnergyR;
-                some[left] = ZCR * EnergyR;
+                some[left] = /*ZCR * */EnergyR;
                 if (some[left] > maxSome) maxSome = some[left];
             }
             for (int left = WindowSize; left < Data.Count-1; left ++)
@@ -111,17 +112,17 @@ namespace SpeechRecognition
 
                 temp[left] = ZCR;
                 energy[left] = EnergyR;
-                if (ZCR < WindowSize / 14)
+                if (ZCR < WindowSize * MIN_ZEROCROSS)
                     some[left] = 0;
                 else
-                    some[left] = Math.Pow(ZCR, 1.5) * EnergyR;
+                    some[left] = /*Math.Pow(ZCR, 1.5) **/ EnergyR;
                 if (some[left] > maxSome) maxSome = some[left];
             }
             int VocLeft = 0;
             int VocRight = 0;
             for (int i = 0; i < Data.Count; i++)
             {
-                if (some[i] > 0.10 * maxSome)
+                if (some[i] > MIN_ENERGY_PERCENT * maxSome)
                 {
                     VocLeft = i;
                     break;
@@ -130,7 +131,7 @@ namespace SpeechRecognition
             }
             for (int i = Data.Count-1; i >=0; i--)
             {
-                if (some[i] > 0.10 * maxSome)
+                if (some[i] > MIN_ENERGY_PERCENT * maxSome)
                 {
                     VocRight = i;
                     break;
@@ -139,7 +140,9 @@ namespace SpeechRecognition
             }
             Left = VocLeft;
             Right = VocRight;
-          //  TmpPlot.SelectView(VocLeft, VocRight);
+            //FilePlot.SelectView(VocLeft, VocRight);
+            //FilePlot.FreeView();
+            //FilePlot.ShowRange = true;
         }
 
         private void DWTTest_Resize(object sender, EventArgs e)
@@ -174,8 +177,6 @@ namespace SpeechRecognition
                 RawTransform.Transform(ref temp);
                 FPlot.AddData(temp);
                 temp = RawTransform.getMFCC(temp);
-                
-                //TmpPlot.AddData(temp);
                 Mf.AddRange(temp);
 			}
             if ((dataLength == 0) | (Mf.Count < dataLength))
@@ -198,6 +199,7 @@ namespace SpeechRecognition
             FilePlot = new LBPlot(Graphics.FromImage(pictureBox1.Image), pictureBox1.DisplayRectangle);
             FPlot = new LBPlot(Graphics.FromImage(pictureBox2.Image), pictureBox2.DisplayRectangle);
             TmpPlot = new LBPlot(Graphics.FromImage(pictureBox3.Image), pictureBox3.DisplayRectangle);
+            btnBuild.Enabled = false;
         }
 
         private void btnBuild_Click(object sender, EventArgs e)
@@ -225,11 +227,13 @@ namespace SpeechRecognition
             pictureBox3.Image = new Bitmap(pictureBox3.Width, pictureBox3.Height);
             TmpPlot.Restore(Graphics.FromImage(pictureBox3.Image));
             TmpPlot.DrawData();
-            label1.Text += " - " + qde.ToString();
+            lbVariation.Text = "Среднее отклонение - " + qde.ToString();
         }
 
         private void btnRemove_Click(object sender, EventArgs e)
         {
+            btnBuild.Enabled = false;
+            btnRemove.Enabled = false;
             DataBase.Clear();
             TmpPlot.Clear();
         }

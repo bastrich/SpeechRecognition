@@ -59,6 +59,12 @@ public class LBPlot
         if (min < minY) minY = min;
         if (max > maxY) maxY = max;
         if (Data.Count > maxX) maxX = Data.Count;
+        if (showAll)
+        {
+            inView.top = max;
+            inView.bottom = min;
+        }
+       
     }
     public void ReplaceData(ICollection Data, int position)
     {
@@ -72,6 +78,11 @@ public class LBPlot
         if (min < minY) minY = min;
         if (max > maxY) maxY = max;
         if (Data.Count > maxX) maxX = Data.Count;
+        if (showAll)
+        {
+            inView.top = max;
+            inView.bottom = min;
+        }
     }
     public void GetDataRange(int index, out double min, out double max)
     {
@@ -107,13 +118,13 @@ public class LBPlot
             ICollection Data = (ICollection)source[index];
             IEnumerator Enum = Data.GetEnumerator();
             Enum.MoveNext();
-            if (showAll)
+           /* if (showAll)
             {
                 inView.left = this.minX;
                 inView.right = this.maxX;
                 inView.top = this.maxY;
                 inView.bottom = this.minY;
-            }
+            }*/
             if (inView.top - inView.bottom == 0)
             {
                 inView.top = this.maxY+1;
@@ -123,23 +134,58 @@ public class LBPlot
             int maxX = inView.right;
             double maxY = inView.top;
             double minY = inView.bottom;
-           
+            if (showAll)
+            {
+                minX = this.minX;
+                maxX = this.maxX;
+                minY = this.minY;
+                maxY = this.maxY;
+            }
+            else
+            {
+                minX = inView.left;
+                maxX = inView.right;
+                maxY = inView.top;
+                minY = inView.bottom;
+            }
+            if (ShowRange)
+            {
+                double l = inView.left*((double)location.Width) / (maxX - minX - 1);
+                double r = inView.right * ((double)location.Width) / (maxX - minX - 1);
+                double t = 0.01 * location.Height + 0.98 * location.Height * ((maxY -inView.top) / (maxY - minY));
+                double b = 0.01 * location.Height + 0.98 * location.Height * ((maxY - inView.bottom) / (maxY - minY));
+                graph.DrawRectangle(Pens.Red, (float)l, (float)t, (float)(r - l), (float)(b-t));
+            }
             double x1 = 0;
             double y1 = 0.01*location.Height+0.98*location.Height * ((maxY - (double)Convert.ChangeType(Enum.Current, typeof(double))) / (maxY - minY));
+            
+            Font fnt = new Font("Arial", 8);
+            SolidBrush drawBrush = new SolidBrush(Color.Black);
+            float der = 1;
             for (int i = minX + 1; (i < maxX)&(i<Data.Count); i++)
-            {
+            {   
+                if (ShowText)
+                {
+                    if (der!=0)
+                    graph.DrawString(Math.Round(((float)Convert.ChangeType(Enum.Current, typeof(float))),3).ToString(), fnt, drawBrush, (float)x1, 0.99f * location.Height -12-12*(i%2)/*(float)y1+der*12*/);
+                }
                 Enum.MoveNext();
                 double y2 = 0.01*location.Height+0.98*location.Height * ((maxY - (double)Convert.ChangeType(Enum.Current, typeof(double))) / (maxY - minY));
                 double x2 = x1 + ((double)location.Width) / (maxX - minX - 1);
                 if (i>minX)
                 graph.DrawLine(Pens.Green, (float)x1, (float)y1, (float)x2, (float)y2);
+                
+                der = Math.Sign(y1 - y2);
                 x1 = x2;
                 y1 = y2;
+                
             }
-            Font fnt = new Font("Arial", 8);
-            SolidBrush drawBrush = new SolidBrush(Color.Black);
-            graph.DrawString(maxY.ToString(), fnt, drawBrush, 1f, 0.01f * location.Height);
-            graph.DrawString(minY.ToString(), fnt, drawBrush, 1f, 0.99f * location.Height - 12);
+            if (!ShowText)
+            {
+                graph.DrawString(maxY.ToString(), fnt, drawBrush, 1f, 0.01f * location.Height);
+                graph.DrawString(minY.ToString(), fnt, drawBrush, 1f, 0.99f * location.Height - 12);
+            }
+            
            /* double y = 0.01 * location.Height + 0.98 * location.Height * ((maxY) / (maxY - minY));
             graph.DrawLine(Pens.Red, 0f, (float)y, location.Width, (float)y);*/
             dDest.DrawImage(imgCash, location.Left, location.Top);
@@ -152,6 +198,14 @@ public class LBPlot
         inView.right = right;
         inView.top = maxY;
         inView.bottom = minY;
+    }
+    public void SelectView(int left, int right, double top, double bottom)
+    {
+        showAll = false;
+        inView.left = left;
+        inView.right = right;
+        inView.top = top;
+        inView.bottom = bottom;
     }
     public void FreeView()
     {
@@ -208,5 +262,7 @@ public class LBPlot
             Y1 = Y2;
         }
     }
+    public bool ShowText { get; set; }
+    public bool ShowRange { get; set; }
 }
 

@@ -26,6 +26,7 @@ namespace SpeechRecognition
             for (int i = 0; i < signal.Length; i++)
             {
                 signal[i] = (realOut[i] * realOut[i] + imageOut[i] * imageOut[i]) / signal.Length;
+                //signal[i] = (realOut[i] * realOut[i]) / signal.Length;
             }
         }
 
