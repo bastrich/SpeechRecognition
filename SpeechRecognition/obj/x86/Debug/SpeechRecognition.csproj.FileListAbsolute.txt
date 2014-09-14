@@ -182,3 +182,5 @@ C:\Users\Andrey\workspace\CSharp\prog\SpeechRecognition\obj\x86\Debug\SpeechReco
 C:\Users\Andrey\workspace\CSharp\prog\SpeechRecognition\obj\x86\Debug\SpeechRecognition.MainForm.resources
 C:\Users\Andrey\workspace\CSharp\prog\SpeechRecognition\obj\x86\Debug\SpeechRecognition.Properties.Resources.resources
 C:\Users\Andrey\workspace\CSharp\prog\SpeechRecognition\obj\x86\Debug\SpeechRecognition.csproj.GenerateResource.Cache
+F:\dev\SpeechRecognition\SpeechRecognition\obj\x86\Debug\SpeechRecognition.exe
+F:\dev\SpeechRecognition\SpeechRecognition\obj\x86\Debug\SpeechRecognition.pdb
