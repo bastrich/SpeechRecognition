@@ -121,6 +121,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ico.ico" />
+    <Content Include="NAudio\NAudio.dll" />
+    <Content Include="NAudio\NAudio.WindowsMediaFormat.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
